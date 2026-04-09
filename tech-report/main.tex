@@ -1,0 +1,51 @@
+\documentclass[11pt]{article}
+\usepackage[review]{acl}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{inconsolata}
+\usepackage{graphicx}
+\usepackage{booktabs}
+
+\title{Formality-Based Human vs. Machine Text Detection}
+\author{
+  Your Name \\
+  CSE 188 \\
+  \texttt{your-email@example.com}
+}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This report studies whether lightweight formality features can distinguish
+human-written text from machine-generated text. We train a logistic regression
+classifier on features such as contraction rate, informal word rate, sentence
+length statistics, punctuation usage, and capitalization. We evaluate with
+Accuracy, F1, and AUROC, and include ablation and error analysis to measure
+technical soundness.
+\end{abstract}
+
+\input{sections/01_intro}
+\input{sections/02_related_work}
+\input{sections/03_method}
+\input{sections/04_experimental_setup}
+\input{sections/05_results}
+\input{sections/06_analysis}
+\input{sections/07_limitations}
+\input{sections/08_conclusion}
+
+\section*{Limitations}
+This draft is based on a small baseline setup. Broader domains and stronger
+baselines may change conclusions.
+
+\section*{Ethics Statement}
+This work focuses on text source classification and should be used carefully to
+avoid over-claiming certainty in high-stakes settings.
+
+\bibliography{custom}
+\bibliographystyle{acl_natbib}
+
+\end{document}

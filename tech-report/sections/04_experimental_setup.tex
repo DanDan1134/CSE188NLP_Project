@@ -1,0 +1,24 @@
+\section{Experimental Setup}
+
+\subsection{Data}
+
+We use the \texttt{ahmadreza13/human-vs-Ai-generated-dataset} setup from the
+project code. The default run uses 400 samples per class (800 total), with a
+stratified train/validation/test split.
+
+\subsection{Metrics}
+
+We report:
+\begin{itemize}
+  \item Accuracy
+  \item F1 score (binary)
+  \item AUROC
+\end{itemize}
+
+\subsection{Implementation}
+
+The implementation uses scikit-learn logistic regression with feature scaling.
+Default run command:
+\begin{verbatim}
+python run_train.py
+\end{verbatim}
