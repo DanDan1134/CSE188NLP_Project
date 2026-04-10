@@ -1,0 +1,50 @@
+error_type,true_label,pred_label,pred_prob_machine,text_snippet
+false_positive,0,1,0.6003681373009573,"Dan Quayle
+
+James Danforth Quayle (born February 4, 1947) is an American politician and lawyer who served as the 44th vice president of the United States from 1989 to 1993. Quayle was also a U.S. representative from 1977 to 1981 and a U.S. senator from 1981 to 1989 from the state of Indiana.
+
+A nati"
+false_negative,1,0,0.046111242385409174,"Overall, there are good-faith economic arguments on both sides. However, based on historical evidence and economic theory, most mainstream economists believe that - with proper regulation to overcome market failures - free market economies utilizing the principle of comparative advantage are capable"
+false_negative,1,0,0.027157270498579043,"1) We start with the general quadratic equation:  
+ ax2 + bx + c = 0   
+ where a, b and c are constants and a ≠ 0.
+
+2) Completing the square: We manipulate the equation so the terms involving x are a perfect square. We add (b2/4a) to both sides.
+ ax2 + bx + c = 0
+ax2 + bx = -c                
+ax2 + "
+false_negative,1,0,0.20564502392258957,"Theorem: The sum of the squares of the first n natural numbers is equal to n(n + 1)(2n + 1)/6.      
+
+Proof:
+We will prove this using mathematical induction.
+
+Base case (n = 1):  
+The only natural number less than 2 is 1.
+The sum of squares of the first 1 natural number is 1 = 1(1+1)(2*1 +1)/6.  
+Th"
+false_negative,1,0,0.4917466319405143,"The pencil strokes dance across the page in graceful arcs, revealing muted shadows and subtle highlights that combine to give depth and dimension to the subject.  The lines serve merely as guideposts, the merest suggestions of form that the eye's mind completes with an almost surreal clarity.  The f"
+false_negative,1,0,0.024812099680743074,"The black cat eats kibble in the kitchen. This sentence in French translates into an English sentence using the following word equivalents:  
+
+""Le chat"" translates to ""The cat""  
+
+""noir"" translates to ""black"" 
+
+""mange"" translates to ""eats""
+
+""des croquettes"" translates to ""kibble"", meaning dry shaped"
+false_negative,1,0,0.008416396191463293,"def add(a, b):
+    """"""This function takes two integer inputs and returns their sum.""""""
+    total = a + b
+    return total"
+false_negative,1,0,0.011857761077039586,"To find the arc length, we use the fundamental theorem of calculus which states that the arc length is the integral of the magnitude of the velocity (or rate of change) of the curve with respect to time. 
+
+First, we find the parametric equations of the ellipse:
+x = a cosθ    
+y = b sinθ
+
+where a is "
+false_negative,1,0,0.44217293792613166,"During the day, Glim collects nuts, berries and crystals that glow when the sunlight hits them just right. The crystals bestow him with the power of flight for short bursts, which allows him to zoom through the forest canopy and visit his gnome friends who live in other parts of the Faeforest.  
+
+To"
+false_negative,1,0,0.46477645083974733,"The Wright brothers, Orville and Wilbur, designed and built the world's first successful airplane and made the first controlled, powered and sustained heavier-than-air human flight. Their breakthrough came from tackling the challenge of control and stability. They invented three control innovations "
+false_negative,1,0,0.07856521283741251,"Mars One aimed to land the first humans on Mars by 2025 through one-way missions. The selection criteria for astronauts focused on physical and psychological health, teamwork skills, and the ability to handle isolation.  Mars One planned to fund the multi-billion dollar missions through sponsorship "
